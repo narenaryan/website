@@ -214,3 +214,5 @@ jQuery(function($){
 
 	
 });
+
+$(".navbar-fixed nav").css("background-color", "#1f531d")
