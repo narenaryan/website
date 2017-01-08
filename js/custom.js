@@ -205,13 +205,6 @@ jQuery(function($){
 	/* 12. HIRE ME SCROLL
 	/* ----------------------------------------------------------- */ 
 
-	jQuery(".hire-me-btn").click(function(e) {
-		e.preventDefault();
-    jQuery('html,body').animate({
-        scrollTop: $("#footer").offset().top},
-        'slow');
-	});
-
 	
 });
 
