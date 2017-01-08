@@ -2067,3 +2067,31 @@ textarea.materialize-textarea {
 .mainWrapper {
     background-color: beige;
 }
+
+.impythonistButton{
+  color: black;
+  background-color: #96ceb4 !important;
+   border-radius: 25px;
+}
+
+.mediumButton{
+  background-color: #ffeead !important;
+  width: 67% !important;
+  color: black;
+   border-radius: 25px;
+}
+
+.aboutButton{
+  background-color: #ff6f69 !important;
+  width: 67% !important;
+  color:  black;
+   border-radius: 25px;
+}
+
+
+.githubButton{
+ background-color: #ffcc5c !important;
+  width: 67% !important;
+  color: black; 
+   border-radius: 25px;
+}
