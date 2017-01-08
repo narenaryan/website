@@ -112,14 +112,14 @@ nav .brand-logo img {
 
 
 #home {
-  background-image: url("img/pens2.jpg");
-  background-position: 100% 100%;
-  background-size: 100% 100%;
-  display: inline;
-  float: left;
-  height: 420px;
-  position: relative;
-  width: 100%;
+    background-image: url(img/macbook.jpg);
+    background-position: 100% 100%;
+    background-size: 100% 117%;
+    display: inline;
+    float: left;
+    height: 451px;
+    position: relative;
+    width: 52%;
 }
 
 
@@ -148,6 +148,9 @@ nav .brand-logo img {
   text-transform: uppercase;
 }
 
+.mynav{
+  background-color: rgb(65, 110, 158) !important;
+}
 
 .home-inner>p{
   color: #fff;
@@ -195,11 +198,10 @@ nav .brand-logo img {
 
 
 .profile-img {
-  border: 5px solid #fff;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   height: 210px;
   margin: 0 auto;
-  width: 170px;
+  width: 198px;
 }
 
 
@@ -441,7 +443,7 @@ nav .brand-logo img {
 
 
 #edcuation{
-  background-color: #fafafa;
+  background-color: papayawhip;
   display: inline;
   padding: 60px 0;
   float: left;
@@ -453,6 +455,10 @@ nav .brand-logo img {
   display: inline;
   float: left;
   width: 100%;
+}
+
+.statsInner {
+  background-color: antiquewhite;
 }
 
 
@@ -551,6 +557,9 @@ nav .brand-logo img {
  transition: all 0.2s ease 0s;
 }
 
+iframe.twitter-timeline {
+    height: 1500px !important;
+}
 
 #portfolio-list .mix a{
   display: block;
@@ -559,6 +568,9 @@ nav .brand-logo img {
   overflow: hidden;
 }
 
+.hireButton {
+  margin-top : -5%;
+}
 
 #portfolio-list .mix > a::before {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -2027,4 +2039,31 @@ textarea.materialize-textarea {
   .children {margin-left: 10px;}
   .pagination li {width: 25px;margin: 0 5px;}
 
+}
+
+.topContainer{
+    width: 56%;
+    height: 329px;
+    margin-left: 10%;
+}
+.leftText {
+  margin-left: -24%;
+}
+
+.customOverlay {
+    margin-left: 100%;
+    margin-top: -4%;
+    width: 137.5% !important;
+    height: 465px !important;
+}
+
+
+.canvas {
+    margin-left: 119% !important;
+    margin-top: -59%;
+}
+
+
+.mainWrapper {
+    background-color: beige;
 }
