@@ -1,0 +1,11 @@
+.image-tile {
+  background-color: #0A282F94 !important;
+  max-height: 39%;
+  max-width: 100%;
+
+}
+
+.github-widget {
+  border: 1px solid #DDD;
+  max-width: 100% !important;
+}

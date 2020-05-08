@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Naren Arya</title>
     <link rel="stylesheet" href="static/css/bulma.css">
+    <link rel="stylesheet" href="static/base.css">
     <link rel="shortcut icon" type="image/x-icon" href="static/images/india.ico">
     <script defer src="static/js/all.js"></script>
+    <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
     <style>
     tile.is-parent { padding: 5.75rem !important ;}
     </style>
@@ -21,8 +23,16 @@
 <div class="tile is-ancestor" style="margin-left: 0.25em; margin-right: 0.25em;">
   <div class="tile is-vertical is-8">
     <div class="tile">
-      <div class="tile is-parent is-vertical">
-        <article class="tile is-child notification is-primary" style="background-color: #59A1A1;">
+      <div class="tile is-parent">
+        <article class="tile is-child is-info image-tile">
+          <figure class="image">
+            <img src="static/images/nayportfolio.jpg">
+          </figure>
+        </article>
+      </div>
+    </div>
+    <div class="tile is-parent">
+        <article class="tile is-child notification is-primary" style="background-color: #4EAECC;">
           <section class="hero is-parent">
             <div class="hero-body">
               <div class="container">
@@ -34,7 +44,9 @@
                 </h2>
               <h3>
                 I call myself a world citizen from India. I currently live in Bavaria, Germany.
-                I work on Full-stack software development. I also authored a book called: &nbsp;
+                I work on Full-stack software development. 
+                <br />
+                I also authored a book called: &nbsp;
                 <a class="has-text-black" href="https://www.packtpub.com/application-development/building-restful-web-services-go" target="_blank" />"Building Restful Web services with Go"
 
                 
@@ -83,31 +95,10 @@
             </div>
           </section>
         </article>
-        <article class="tile is-child notification" style="background-color: #E4F7F3;">
-          <p class="title"><u>Favorite Quote</u></p>
-          <div class="card">
-            <div class="card-content">
-              <p class="title">
-                “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”
-              </p>
-              <p class="subtitle">
-                Jeff Atwood
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child notification is-info" style="background-color: #C1C9B6;">
-          <figure class="image">
-            <img src="static/images/nay_swiss.jpg">
-          </figure>
-        </article>
-      </div>
     </div>
     <div class="tile is-parent">
       <article class="tile is-child notification is-danger" style="background-color: #D74e69">
-        <p class="title">Contact</p>
+        <p class="title">How to reach me?</p>
         <div class="columns">
           <div class="column">
             <p class="subtitle"><b>Email:</b> Naren.yellavula@gmail.com</p>
@@ -120,7 +111,7 @@
     </div>
   </div>
   <div class="tile is-parent">
-    <article class="tile is-child notification is-success" style="background-color: #56BCE3;">
+    <article class="tile is-child notification is-success" style="background-color: #5CCEB3;">
       <div class="content">
         <p class="title">My musings</p>
         <p class="subtitle">Tech, life, and many more...</p>
